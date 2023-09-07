@@ -1,0 +1,104 @@
+@import "../../App.scss";
+
+.navbar{
+    width: 100%;
+    color: var(--main-black);
+    font-size: 14px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+
+    &.scrolled{
+        background-color: var(--main-white);
+    }
+
+    .navContainer{
+        padding: 0px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 90px;
+
+        .left{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-right: 120px;
+            .logo{
+                padding-right: 30px;
+            }
+
+            span {
+                margin-right: 20px;
+                cursor: pointer;
+
+                @include tablet {
+                    display: none;
+                }
+
+                &.navbarmainLinks {
+                    @include tablet {
+                        display: block;
+                    }
+                }
+            }
+            .dropdown{
+                .icon{
+                    cursor: pointer;
+                    padding-right: 10px;
+                    margin-top: 2px;
+                    font-size: 2rem !important;
+                }
+                .options{
+                    display: none;
+                    background-color: var(--main-white);
+                    border-radius: 4px;
+                    padding: 15px;
+                    padding-top: 50px;
+                    margin-left: -100px;
+                    width: 300px;
+                    span{
+                        padding: 10px;
+                        margin: 20px 0;
+                        font-size: 1.2rem;
+                        cursor: pointer;
+                    }
+                }
+
+                &:hover{
+                    .options{
+                        display: flex;
+                        flex-direction: column;
+                        position: absolute;
+                    }
+                }
+            }
+        }
+
+        .right{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+
+            .icon{
+                margin: 0px 1px;
+                cursor: pointer;
+                color: var(--main-red);
+            }
+
+            button {
+                background-color: var(--main-orange);
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: var(--main-white);
+                padding: 15px;
+                border: none;
+                cursor: pointer;
+                margin-left: 5px;
+            }
+        }
+    }
+
+}

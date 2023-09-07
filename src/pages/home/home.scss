@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    justify-content:flex-start ;
+    align-items: center;
+    background-color: var(--main-color);
+    background-image: url('../../assets/p4t-pupils.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}

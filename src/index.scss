@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --main-black: #0b0b0b;
+  --main-red: rgb(226, 66, 66);
+  --main-orange: rgb(233, 107, 34);
+  --main-white: white;
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+html, body {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.orange-btn {
+  background-color: var(--main-orange);
+  border: none;
+}
+
+.orange-btn:hover {
+  background-color: var(--main-black);
+}
