@@ -11,7 +11,7 @@ const Footer = () => {
             <footer className="py-5">
                 <div className="row">
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>About us</h5>
+                        <h6>About us</h6>
                         <ul class="nav flex-column">
                             <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Who we are</a></li>
                             <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Our Board</a></li>
@@ -22,7 +22,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-6 col-md-2 mb-3">
-                        <h5>What we do</h5>
+                        <h6>What we do</h6>
                         <ul class="nav flex-column">
                             <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Education</a></li>
                             <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Livelihood</a></li>
@@ -33,7 +33,7 @@ const Footer = () => {
                     </div>
 
                     <div class="col-6 col-md-2 mb-3">
-                        <h5>Quick Links</h5>
+                        <h6>Quick Links</h6>
                         <ul class="nav flex-column">
                             <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">Home</a></li>
                             <li className="nav-item mb-2"><a href="/" className="nav-link p-0 text-muted">News</a></li>
@@ -45,7 +45,7 @@ const Footer = () => {
 
                     <div className="col-md-5 offset-md-1 mb-3">
                         <form>
-                            <h5>Subscribe to our newsletter</h5>
+                            <h6>Subscribe to our newsletter</h6>
                             <p>Monthly digest of what's new and exciting from us.</p>
                             <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                                 <label for="newsletter1" className="visually-hidden">Email address</label>
