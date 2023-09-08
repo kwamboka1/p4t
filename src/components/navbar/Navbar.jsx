@@ -1,7 +1,6 @@
 import './navbar.scss';
 import React from 'react';
 import Logo from '../../assets/p4t.png';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -16,139 +15,146 @@ const Navbar = () => {
         return () => (window.onscroll = null);
     };
 
+    const iconColor = isScrolled ? 'var(--main-orange)' : 'var(--main-white)';
+
     return (
-        <div className={isScrolled ? 'navbar scrolled' : 'navbar'}>
-            <div className="navContainer">
-                <div className="left">
+        <div className={isScrolled ? 'navbar scrolled navbar-expand-lg' : 'navbar navbar-expand-lg'}>
+            <div class="container-fluid">
+                <Link to="/" className="navbar-brand">
                     <img 
-                        src={Logo} 
+                        src={Logo}
                         alt=""
-                        width="100"
-                        height="70"
-                        className='logo'
+                        width="90"
+                        height="90"
+                        className="mx-5"
                     />
-                    <Link to="/" className='link'>
-                        <span>Home</span>
-                    </Link>
-                    <div>About</div>
-                    <div className="dropdown">
-                        <ExpandMoreIcon className="icon"/>
-                        <div className="options">
-                            <Link to='/what-we-do' className='link'>
-                                <span>Who we are</span>
+                </Link>
+                <button 
+                    className="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNavDarkDropdown" 
+                    aria-controls="navbarNavDarkDropdown" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                >
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul className="navbar-nav">
+                        <li className='nav-item'>
+                            <Link to="/" className="link nav-link active" aria-current="page">Home</Link>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                About
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='/what-we-do' className='link'>  
-                                <span>Our Team</span>
+                            <ul className="dropdown-menu dropdown-menu-light">
+                                <li>
+                                    <Link to="" className="dropdown-item" >Who we are</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Our Team</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Our Board</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Our History</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Contact us</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                What we do
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Our History</span>
+                            <ul className="dropdown-menu dropdown-menu-light">
+                                <li>
+                                    <Link to="" className="dropdown-item" >Education</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Livelihood</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Child Protection</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Health</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Our Impact</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Support us
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >FAQ</span>
+                            <ul className="dropdown-menu dropdown-menu-light">
+                                <li>
+                                    <Link to="" className="dropdown-item" >Support P4T</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Support a family</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Build a school</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Protect a child</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Keep a child in school</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Get involved
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Contact Us</span>
+                            <ul className="dropdown-menu dropdown-menu-light">
+                                <li>
+                                    <Link to="" className="dropdown-item" >Partner with us</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Career in P4T</Link>
+                                </li>
+                                <li>
+                                    <Link to="" className="dropdown-item" >Volunteer</Link>
+                                </li>
+                            </ul>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to="/" className="link nav-link">News</Link>
+                        </li>
+                    </ul>
+                    <ul className="navbar-nav ml-auto">
+                        <li className='nav-item'>
+                            <Link to='' className='nav-link'>
+                                <FacebookIcon className='icon' style={{ color: iconColor }}/>
                             </Link>
-                        </div>
-                    </div>
-                    <div>What we do</div>
-                    <div className="dropdown">
-                        <ExpandMoreIcon className="icon"/>
-                        <div className="options">
-                            <Link to='' className='link'>
-                                <span>Education</span>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='' className='nav-link'>
+                                <InstagramIcon className='icon' style={{ color: iconColor }}/>
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span>Livelihood</span>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to='' className='nav-link'>
+                                <YouTubeIcon className='icon' style={{ color: iconColor }}/>
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Child Protection</span>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to="" className='nav-link'>
+                                <button className='nav-btn fw-bold'>
+                                    Donate
+                                </button>
                             </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Health</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Our Impact</span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div>Support us</div>
-                    <div className="dropdown">
-                        <ExpandMoreIcon className="icon"/>
-                        <div className="options">
-                            <Link to='' className='link'>
-                                <span>Keep a child in School</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span>Support a family</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Build a School</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Protect a child</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Donate tablets, laptops</span>
-                            </Link>
-                        </div>
-                    </div>
-                    <div>Get involved</div>
-                    <div className="dropdown">
-                        <ExpandMoreIcon className="icon"/>
-                        <div className="options">
-                            <Link to='' className='link'>
-                                <span>Partner with us</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span>Donate</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Career in P4T</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Volunteer</span>
-                            </Link>
-                            <hr className='text-primary'/>
-                            <Link to='' className='link'>  
-                                <span >Contact Us</span>
-                            </Link>
-                        </div>
-                    </div>
-                    <Link to='' className='link'>
-                        <span className='navbarmainLinks'>News</span>
-                    </Link>
-                </div>
-                <div className="right">
-                    <Link to=''>
-                        <FacebookIcon className='icon'/>
-                    </Link>
-                    <Link to=''>
-                        <InstagramIcon className='icon'/>
-                    </Link>
-                    <Link to=''>
-                        <YouTubeIcon className='icon'/>
-                    </Link>
-                    <Link to=''>
-                        <button className=''>
-                            Donate
-                        </button>
-                    </Link>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
