@@ -149,7 +149,7 @@ const Navbar = () => {
                         </li>
                         <li className='nav-item'>
                             <Link to="" className='nav-link'>
-                                <button className='nav-btn fw-bold'>
+                                <button className='nav-btn fw-bold btn btn-primary btn-lg px-4 '>
                                     Donate
                                 </button>
                             </Link>

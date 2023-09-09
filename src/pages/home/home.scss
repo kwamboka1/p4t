@@ -2,15 +2,31 @@
     display: flex;
     justify-content:center ;
     align-items: center;
-    background-color: var(--main-color);
-    // background-image: url('../../assets/p4t-pupils.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--main-white);
     overflow: hidden;
     height: 100vh;
-    
-    .centered {
-        padding-bottom: 350px;
+    p {
+        color: var(--main-white);
+        text-shadow: 2px 2px 2px var(--main-black);
+        font-weight: 600;
+    }
+    .extend {
+        padding-bottom: 150px;
+        button {
+            font-weight: 600;
+        }
+        .btn1 {
+            background-color: var(--main-orange);
+            border: none;
+        }
+        .btn2 {
+            border: 1px solid var(--main-black);
+            color: var(--main-black);
+        }
+        .btn2:hover {
+            color: var(--main-white);
+            background-color: var(--main-black);
+        }
     }
 }
 

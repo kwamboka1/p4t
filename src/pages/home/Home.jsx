@@ -5,7 +5,7 @@ import Footer from '../../components/footer/Footer';
 import Bg from '../../assets/p4t-pupils.jpeg';
 import Bg0 from '../../assets/Bg0.jpg';
 import Bg1 from '../../assets/Bg1.jpg';
-import Bg2 from '../../assets/Bg2.jpg';
+import Bg4 from '../../assets/Bg4.jpg';
 import Bg3 from '../../assets/Bg3.jpg';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
@@ -22,45 +22,89 @@ const Home = () => {
                         <div className="carousel-item active">
                             <img src={Bg0} className="d-block w-100" alt="Slide 1" />
                             <div className="carousel-caption">
-                                <div className='centered'>
-                                    <h1>Planning For Tomorrow Organisation</h1>
-                                    <h5>Creating the tomorrow we all desire</h5>
+                                <div class="px-4 py-5 my-5 text-center">
+                                    <h1 className="display-5 fw-bold">Planning For Tomorrow Organisation</h1>
+                                        <div className="col-lg-6 mx-auto">
+                                            <p className="lead mb-4">
+                                                Creating the tomorrow we all desire
+                                            </p>
+                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">SUPPORT US</button>
+                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">ABOUT US</button>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                         <div className="carousel-item ">
                             <img src={Bg} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
-                                <div className='centered'>
-                                    <h2>Education</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, illo. Nobis id quisquam dignissimos maxime ea, accusamus aliquid possimus voluptates porro similique iste quidem quod! Ipsum ut veniam reprehenderit reiciendis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item ">
-                            <img src={Bg2} className="d-block w-100" alt="Slide 2" />
-                            <div className="carousel-caption text">
-                                <div className='centered'>
-                                    <h2>Livelihood</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, illo. Nobis id quisquam dignissimos maxime ea, accusamus aliquid possimus voluptates porro similique iste quidem quod! Ipsum ut veniam reprehenderit reiciendis.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="carousel-item ">
-                            <img src={Bg3} className="d-block w-100" alt="Slide 2" />
-                            <div className="carousel-caption text">
-                                <div className='centered'>
-                                    <h2>Child Protection</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, illo. Nobis id quisquam dignissimos maxime ea, accusamus aliquid possimus voluptates porro similique iste quidem quod! Ipsum ut veniam reprehenderit reiciendis.</p>
+                                <div class="py-5 my-5 text-center">
+                                    <h1 className="display-5 fw-bold">EDUCATION</h1>
+                                        <div className="col-lg-6 mx-auto">
+                                            <p className="lead mb-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                            </p>
+                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
+                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
                         <div className="carousel-item ">
                             <img src={Bg1} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
-                                <div className='centered'>
-                                    <h2>Health</h2>
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, illo. Nobis id quisquam dignissimos maxime ea, accusamus aliquid possimus voluptates porro similique iste quidem quod! Ipsum ut veniam reprehenderit reiciendis.</p>
+                                <div class="py-5 my-5 text-center">
+                                    <h1 className="display-5 fw-bold">HEALTH</h1>
+                                        <div className="col-lg-6 mx-auto">
+                                            <p className="lead mb-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Natus, illo. Nobis id quisquam dignissimos maxime ea,
+                                            </p>
+                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
+                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item ">
+                            <img src={Bg4} className="d-block w-100" alt="Slide 2" />
+                            <div className="carousel-caption text">
+                                <div class="py-5 my-5 text-center">
+                                    <h1 className="display-5 fw-bold">LIVELIHOOD</h1>
+                                        <div className="col-lg-6 mx-auto">
+                                            <p className="lead mb-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                            </p>
+                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
+                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item ">
+                            <img src={Bg3} className="d-block w-100" alt="Slide 2" />
+                            <div className="carousel-caption text">
+                                <div class="py-5 my-5 text-center">
+                                    <h1 className="display-5 fw-bold">CHILD PROTECTION</h1>
+                                        <div className="col-lg-6 mx-auto">
+                                            <p className="lead mb-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                            </p>
+                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
+                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
