@@ -4,6 +4,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
+import Team from './pages/team/Team';
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
             exact
             path='/who-we-are'
             element={<About />}
+          />
+          <Route 
+            path='/team'
+            element={<Team />}
           />
         </Routes>
       </Router>

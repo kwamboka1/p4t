@@ -5,6 +5,7 @@
   --main-red: rgb(226, 66, 66);
   --main-orange: rgb(233, 107, 34);
   --main-white: white;
+  --main-gray: rgb(224, 218, 218);
 }
 
 body {
@@ -68,6 +69,12 @@ p {
   padding: 5% 3%;
 }
 
-.intro-text {
-  color: var(--main-orange);
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  .intro-text {
+    color: var(--main-orange);
+  }
 }

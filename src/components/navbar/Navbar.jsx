@@ -55,7 +55,7 @@ const Navbar = () => {
                                     <Link to="/who-we-are" className="dropdown-item" >Who we are</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Our Team</Link>
+                                    <Link to="/team" className="dropdown-item" >Our Team</Link>
                                 </li>
                                 <li>
                                     <Link to="" className="dropdown-item" >Our Board</Link>
