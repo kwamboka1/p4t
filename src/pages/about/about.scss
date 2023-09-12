@@ -1,0 +1,19 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    background-image: url('../../assets/Bg0.jpg');
+}
+
+.abt-text {
+    img {
+        border: 10px solid var(--main-orange);
+    }
+    .mission {
+        background-color: var(--main-orange);
+        color: var(--main-white);
+        padding: 10px;
+        margin-top: -16px;
+    }
+}

@@ -20,7 +20,11 @@ const Home = () => {
                 <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
-                            <img src={Bg0} className="d-block w-100" alt="Slide 1" />
+                            <img 
+                                src={Bg0} 
+                                className="d-block w-100" 
+                                alt="Slide 1" 
+                            />
                             <div className="carousel-caption">
                                 <div class="px-4 py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">

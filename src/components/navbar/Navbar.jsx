@@ -52,7 +52,7 @@ const Navbar = () => {
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
-                                    <Link to="" className="dropdown-item" >Who we are</Link>
+                                    <Link to="/who-we-are" className="dropdown-item" >Who we are</Link>
                                 </li>
                                 <li>
                                     <Link to="" className="dropdown-item" >Our Team</Link>

@@ -17,7 +17,7 @@ function App() {
           />
           <Route 
             exact
-            path='/about'
+            path='/who-we-are'
             element={<About />}
           />
         </Routes>
