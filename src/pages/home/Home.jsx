@@ -23,16 +23,28 @@ const Home = () => {
                             <img src={Bg0} className="d-block w-100" alt="Slide 1" />
                             <div className="carousel-caption">
                                 <div class="px-4 py-5 my-5 text-center">
-                                    <h1 className="display-5 fw-bold">Planning For Tomorrow Organisation</h1>
-                                        <div className="col-lg-6 mx-auto">
-                                            <p className="lead mb-4">
-                                                Creating the tomorrow we all desire
-                                            </p>
-                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
-                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">SUPPORT US</button>
-                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">ABOUT US</button>
-                                            </div>
+                                    <h1 className="display-5 fw-bold">
+                                        Planning For Tomorrow Youth Organisation
+                                    </h1>
+                                    <div className="col-lg-6 mx-auto">
+                                        <p className="lead mb-4">
+                                            Creating the tomorrow we all desire
+                                        </p>
+                                        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                            <button 
+                                                type="button" 
+                                                className="btn1 btn btn-primary btn-lg px-4 gap-3"
+                                            >
+                                                SUPPORT US
+                                            </button>
+                                            <button 
+                                                type="button" 
+                                                className="btn2 btn btn-outline-secondary btn-lg px-4"
+                                            >
+                                                ABOUT US
+                                            </button>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -41,16 +53,26 @@ const Home = () => {
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">EDUCATION</h1>
-                                        <div className="col-lg-6 mx-auto">
-                                            <p className="lead mb-4">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                Natus, illo. Nobis id quisquam dignissimos maxime ea, 
-                                            </p>
-                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
-                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
-                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
-                                            </div>
+                                    <div className="col-lg-6 mx-auto">
+                                        <p className="lead mb-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                        </p>
+                                        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                            <button 
+                                                type="button" 
+                                                className="btn1 btn btn-primary btn-lg px-4 gap-3"
+                                            >
+                                                READ MORE
+                                            </button>
+                                            <button 
+                                                type="button" 
+                                                className="btn2 btn btn-outline-secondary btn-lg px-4"
+                                            >
+                                                DONATE
+                                            </button>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -59,16 +81,26 @@ const Home = () => {
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">HEALTH</h1>
-                                        <div className="col-lg-6 mx-auto">
-                                            <p className="lead mb-4">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                Natus, illo. Nobis id quisquam dignissimos maxime ea,
-                                            </p>
-                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
-                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
-                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
-                                            </div>
+                                    <div className="col-lg-6 mx-auto">
+                                        <p className="lead mb-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Natus, illo. Nobis id quisquam dignissimos maxime ea,
+                                        </p>
+                                        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                            <button 
+                                                type="button" 
+                                                className="btn1 btn btn-primary btn-lg px-4 gap-3"
+                                            >
+                                                READ MORE
+                                            </button>
+                                            <button 
+                                                type="button" 
+                                                className="btn2 btn btn-outline-secondary btn-lg px-4"
+                                            >
+                                                DONATE
+                                            </button>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -77,16 +109,26 @@ const Home = () => {
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">LIVELIHOOD</h1>
-                                        <div className="col-lg-6 mx-auto">
-                                            <p className="lead mb-4">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                Natus, illo. Nobis id quisquam dignissimos maxime ea, 
-                                            </p>
-                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
-                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
-                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
-                                            </div>
+                                    <div className="col-lg-6 mx-auto">
+                                        <p className="lead mb-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                        </p>
+                                        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                            <button 
+                                                type="button" 
+                                                className="btn1 btn btn-primary btn-lg px-4 gap-3"
+                                            >
+                                                READ MORE
+                                            </button>
+                                            <button 
+                                                type="button" 
+                                                className="btn2 btn btn-outline-secondary btn-lg px-4"
+                                            >
+                                                DONATE
+                                            </button>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -95,16 +137,26 @@ const Home = () => {
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">CHILD PROTECTION</h1>
-                                        <div className="col-lg-6 mx-auto">
-                                            <p className="lead mb-4">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                Natus, illo. Nobis id quisquam dignissimos maxime ea, 
-                                            </p>
-                                            <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
-                                                <button type="button" className="btn1 btn btn-primary btn-lg px-4 gap-3">READ MORE</button>
-                                                <button type="button" className="btn2 btn btn-outline-secondary btn-lg px-4">DONATE</button>
-                                            </div>
+                                    <div className="col-lg-6 mx-auto">
+                                        <p className="lead mb-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                        </p>
+                                        <div className="d-grid gap-2 d-sm-flex justify-content-sm-center extend">
+                                            <button 
+                                                type="button" 
+                                                className="btn1 btn btn-primary btn-lg px-4 gap-3"
+                                            >
+                                                READ MORE
+                                            </button>
+                                            <button 
+                                                type="button" 
+                                                className="btn2 btn btn-outline-secondary btn-lg px-4"
+                                            >
+                                                DONATE
+                                            </button>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -125,21 +177,23 @@ const Home = () => {
                         <RadioButtonCheckedIcon className='icon' />
                         <h5>Our Mission</h5>
                         <h6>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, aperiam. Dolorem nesciunt sint quis ut,
+                            Empowering communities to be healthy and self-reliant through provision 
+                            of knowledge and skills
                         </h6>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
                         <RemoveRedEyeIcon className='icon' />
                         <h5>Our Vision</h5>
                         <h6>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, aperiam. Dolorem nesciunt sint quis ut,
+                            A healthy and self-reliant community that is empowered with knowledge 
+                            and skills.
                         </h6>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 md-screen'>
                         <KeyIcon className='icon' />
                         <h5>Our Values</h5>
                         <h6>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, aperiam. Dolorem nesciunt sint quis ut,
+                            Integrity, Commitment, Empowerment, Equality, Humanity
                         </h6>
                     </div>
                 </div>
@@ -170,11 +224,23 @@ const Home = () => {
             <div className='container py-5'>
                 <div className='row'>
                     <div className='col-md-6'>
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Uty9UhkCcPg" title='medical mission' frameborder="0" allowfullscreen></iframe>
+                    <iframe 
+                        width="100%" 
+                        height="315" 
+                        src="https://www.youtube.com/embed/Uty9UhkCcPg" 
+                        title='medical mission' 
+                        frameborder="0" 
+                        allowfullscreen
+                    ></iframe>
                     </div>
                     <div className='col-md-6'>
                         <h3 className='pt-5'>Medical Mission 2023</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias dolorem nesciunt nisi. Harum aspernatur corporis at omnis laborum illo debitis iste vero, dolore quasi optio. Ullam architecto sunt nisi aut.</p>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                            Alias dolorem nesciunt nisi. Harum aspernatur corporis at 
+                            omnis laborum illo debitis iste vero, dolore quasi optio. 
+                            Ullam architecto sunt nisi aut.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -198,7 +264,8 @@ const Home = () => {
                     <div className='col-md-3'>
                         <div className='circle'>
                             <div className='indicator text-center'>
-                                5,000 child protection<br /> and GBV cases supported and referred and 1,500 households received relief food items to survive.
+                                5,000 child protection<br /> and GBV cases supported and referred and 1,500 
+                                households received relief food items to survive.
                             </div>
                         </div>
                     </div>
@@ -447,4 +514,3 @@ const Home = () => {
 };
 
 export default Home;
-

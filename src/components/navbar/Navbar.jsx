@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import LanguageIcon from '@mui/icons-material/Language';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -130,8 +131,15 @@ const Navbar = () => {
                         <li className='nav-item'>
                             <Link to="/" className="link nav-link">News</Link>
                         </li>
+                        <li className='nav-item'>
+                            <Link to="" className='link nav-link'>
+                                {/* <button className='nav-btn fw-bold btn btn-primary btn-lg px-4 '> */}
+                                    Donate
+                                {/* </button> */}
+                            </Link>
+                        </li>
                     </ul>
-                    <ul className="navbar-nav ml-auto">
+                    <ul className="right navbar-nav ml-auto">
                         <li className='nav-item'>
                             <Link to='' className='nav-link'>
                                 <FacebookIcon className='icon' style={{ color: iconColor }}/>
@@ -148,11 +156,26 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="" className='nav-link'>
-                                <button className='nav-btn fw-bold btn btn-primary btn-lg px-4 '>
-                                    Donate
+                            <div className='dropdown'>
+                                <button
+                                    className='fw-bold btn px-4 dropdown-toggle'
+                                    type='button'
+                                    id='languageDropdown'
+                                    data-bs-toggle='dropdown'
+                                    aria-haspopup='true'
+                                    aria-expanded='false'
+                                >
+                                    <LanguageIcon className='icon' style={{ color: iconColor }} />
                                 </button>
-                            </Link>
+                                <div className='dropdown-menu' aria-labelledby='languageDropdown'>
+                                    <button className='dropdown-item' type='button'>
+                                        English
+                                    </button>
+                                    <button className='dropdown-item' type='button'>
+                                        Norge
+                                    </button>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
