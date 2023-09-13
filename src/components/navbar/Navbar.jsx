@@ -58,7 +58,7 @@ const Navbar = () => {
                                     <Link to="/team" className="dropdown-item" >Our Team</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Our Board</Link>
+                                    <Link to="/board" className="dropdown-item" >Our Board</Link>
                                 </li>
                                 <li>
                                     <Link to="" className="dropdown-item" >Our History</Link>

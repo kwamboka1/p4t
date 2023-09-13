@@ -5,7 +5,7 @@
   --main-red: rgb(226, 66, 66);
   --main-orange: rgb(233, 107, 34);
   --main-white: white;
-  --main-gray: rgb(224, 218, 218);
+  --main-gray: rgb(238, 235, 235);
 }
 
 body {
@@ -67,6 +67,10 @@ p {
   color: var(--main-white);
   background-color: var(--main-orange);
   padding: 5% 3%;
+}
+
+.section-bg2 {
+    background-color: var(--main-gray);
 }
 
 .intro {

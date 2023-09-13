@@ -1,10 +1,10 @@
 import './App.scss';
 import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Team from './pages/team/Team';
+import Board from './pages/board/Board';
 
 function App() {
   return (
@@ -24,6 +24,10 @@ function App() {
           <Route 
             path='/team'
             element={<Team />}
+          />
+          <Route 
+            path='/board'
+            element={<Board />}
           />
         </Routes>
       </Router>

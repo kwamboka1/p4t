@@ -7,6 +7,8 @@ import Bg0 from '../../assets/Bg0.jpg';
 import Bg1 from '../../assets/Bg1.jpg';
 import Bg4 from '../../assets/Bg4.jpg';
 import Bg3 from '../../assets/Bg3.jpg';
+import Altenburg from '../../assets/altenburg.jpeg';
+import Echo from '../../assets/echo.jpeg';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import KeyIcon from '@mui/icons-material/Key';
@@ -289,7 +291,12 @@ const Home = () => {
                 </div>
                 <div className='row text-center'>
                     <div className='col-md-3'>
-                        <a href='https://medicalteams.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://medicalteams.org/' 
+                            title='Medical Teams International' 
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_aab09173c61443408691acc9aed64c4d~mv2.png/v1/fill/w_220,h_149,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/MTI.png'
                                 alt=''
@@ -299,7 +306,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://piousprojects.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://piousprojects.org/'
+                            title='Pious Projects' 
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_ccf82770a43c4b65a2fc46d200bf00fe~mv2.png/v1/fill/w_220,h_29,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PIOUS%20America%20Project.png'
                                 alt=''
@@ -309,7 +321,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://mcc.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://mcc.org/'
+                            title='MCC'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_203e8e22d1b54d72aea9ee5e408a5cc3~mv2.jpg/v1/fill/w_220,h_116,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/MCC.jpg'
                                 alt=''
@@ -319,7 +336,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://refuaid.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://refuaid.org/'
+                            title='RefuAid'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_6a821ead40cf41418af1d88a3683ccc7~mv2.png/v1/fill/w_220,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RefuAid.png'
                                 alt=''
@@ -329,17 +351,27 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://thealtenburgfoundation.com/our-work' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://thealtenburgfoundation.com/our-work'
+                            title='The Altenburg Foundation'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
-                                src='https://static.wixstatic.com/media/d9e58e_68341a243efd49f0ac919ea5bd3f9a31~mv2.jpeg/v1/fill/w_214,h_74,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d9e58e_68341a243efd49f0ac919ea5bd3f9a31~mv2.jpeg'
+                                src={Altenburg}
                                 alt=''
-                                width=''
-                                height=''
+                                width='150'
+                                height='150'
                             />
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.wvi.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.wvi.org/'
+                            title='World Vision'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_9fbc8888f498448f8b23355024bbabba~mv2.jpg/v1/fill/w_220,h_45,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WVUganda.jpg'
                                 alt=''
@@ -349,7 +381,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.weltwaerts.de/en/home.html' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.weltwaerts.de/en/home.html'
+                            title='weltwaerts'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_515be626d4ca44ed81c2e9aebc3c8938~mv2.png/v1/fill/w_220,h_210,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/index.png'
                                 alt=''
@@ -359,7 +396,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.unhcr.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.unhcr.org/'
+                            title='UNHCR'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_b0346151c4ab454abb81b2eb44c868c9~mv2.jpg/v1/fill/w_197,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/UNHCR.jpg'
                                 alt=''
@@ -369,7 +411,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.responseinnovationlab.com/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.responseinnovationlab.com/'
+                            title='Response Innovation Lab' 
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_0704aa3be29643a6ba25d4f04a4b0670~mv2.png/v1/fill/w_193,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Response%20Innovation%20lab.png'
                                 alt=''
@@ -379,7 +426,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.coburwas.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.coburwas.org/'
+                            title='CIYOTA'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_a9c206005fca49c0affe1b6a1eb6f083~mv2.jpeg/v1/fill/w_125,h_111,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d9e58e_a9c206005fca49c0affe1b6a1eb6f083~mv2.jpeg'
                                 alt=''
@@ -389,7 +441,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://pumpkin-sailfish-jm9f.squarespace.com/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://pumpkin-sailfish-jm9f.squarespace.com/'
+                            title='Aid Pioneers'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_c947ec7716744364bab4fa2023ab6e49~mv2.png/v1/fill/w_124,h_124,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Aid%20Pioneers.png'
                                 alt=''
@@ -399,7 +456,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.fundacionarnholddelacamara.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.fundacionarnholddelacamara.org/'
+                            title='Fundacion Arnhold De La Camara'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_26e4d32189ec4228a0b6d5107867006f~mv2.png/v1/fill/w_111,h_103,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Fundacion%20arnhold%20de%20la%20Camara.png'
                                 alt=''
@@ -409,7 +471,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.buildchurchafrica.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.buildchurchafrica.org/'
+                            title='Build Church Africa'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_ee7e1e40d4324fe38ceb457bc6fe5f26~mv2.jpeg/v1/fill/w_141,h_103,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-07-16%20at%2010_06_03.jpeg'
                                 alt=''
@@ -419,7 +486,12 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.nrc.no/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.nrc.no/'
+                            title='NRC'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_618fb49c5fcf4974b042b2102489d147~mv2.png/v1/fill/w_118,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Navnl%C3%B8s.png'
                                 alt=''
@@ -429,12 +501,32 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a href='https://www.warchildholland.org/' target='_blank' rel='noreferrer'>
+                        <a 
+                            href='https://www.warchildholland.org/'
+                            title='War Child Holland'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_eed5761e31294984875fdf91811f46ac~mv2.png/v1/fill/w_118,h_118,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WCH.png'
                                 alt=''
                                 width=''
                                 height=''
+                            />
+                        </a>
+                    </div>
+                    <div className='col-md-3'>
+                        <a 
+                            href='/#'
+                            title='ECHO'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
+                            <img 
+                                src={Echo}
+                                alt=''
+                                width='125'
+                                height='125'
                             />
                         </a>
                     </div>
