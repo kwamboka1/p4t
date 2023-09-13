@@ -61,10 +61,10 @@ const Navbar = () => {
                                     <Link to="/board" className="dropdown-item" >Our Board</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Our History</Link>
+                                    <Link to="/history" className="dropdown-item" >Our History</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Contact us</Link>
+                                    <Link to="/contact" className="dropdown-item" >Contact us</Link>
                                 </li>
                             </ul>
                         </li>
