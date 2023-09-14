@@ -287,7 +287,7 @@ const Home = () => {
             <div className='container py-5 partners'>
                 <div className='text-center pb-5'>
                     <h3>Our Partners</h3>
-                    <h5>Partneship for a better future</h5>
+                    <h5>Partnership for a better future</h5>
                 </div>
                 <div className='row text-center'>
                     <div className='col-md-3'>
