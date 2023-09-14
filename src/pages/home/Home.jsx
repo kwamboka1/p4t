@@ -7,8 +7,8 @@ import Bg0 from '../../assets/Bg0.jpg';
 import Bg1 from '../../assets/Bg1.jpg';
 import Bg4 from '../../assets/Bg4.jpg';
 import Bg3 from '../../assets/Bg3.jpg';
-import Altenburg from '../../assets/altenburg.jpeg';
-import Echo from '../../assets/echo.jpeg';
+import Altenburg from '../../assets/altenburg.svg';
+import Echo from '../../assets/echo.png';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import KeyIcon from '@mui/icons-material/Key';
@@ -351,19 +351,21 @@ const Home = () => {
                         </a>
                     </div>
                     <div className='col-md-3'>
-                        <a 
-                            href='https://thealtenburgfoundation.com/our-work'
-                            title='The Altenburg Foundation'
-                            target='_blank' 
-                            rel='noreferrer'
-                        >
-                            <img 
-                                src={Altenburg}
-                                alt=''
-                                width='150'
-                                height='150'
-                            />
-                        </a>
+                        <div className='card'>
+                            <a 
+                                href='https://thealtenburgfoundation.com/our-work'
+                                title='The Altenburg Foundation'
+                                target='_blank' 
+                                rel='noreferrer'
+                            >
+                                <img 
+                                    src={Altenburg}
+                                    alt=''
+                                    width='150'
+                                    height='150'
+                                />
+                            </a>
+                        </div>
                     </div>
                     <div className='col-md-3'>
                         <a 
@@ -525,8 +527,8 @@ const Home = () => {
                             <img 
                                 src={Echo}
                                 alt=''
-                                width='125'
-                                height='125'
+                                width='150'
+                                height='150'
                             />
                         </a>
                     </div>

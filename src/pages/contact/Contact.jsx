@@ -21,6 +21,7 @@ const Contact = () => {
                             height="400" 
                             id="gmap_canvas" 
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.9660163820595!2d30.778796069515465!3d1.1843117961619194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x176465d134a0201d%3A0x1d1df227c9710226!2sPlanning%20for%20Tomorrow%20Youth%20Organisation!5e0!3m2!1sen!2sus!4v1694684386141!5m2!1sen!2sus" 
+                            loading='lazy'
                             frameborder="0" 
                             scrolling="no" 
                             marginheight="0" 
