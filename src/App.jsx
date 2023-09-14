@@ -7,6 +7,7 @@ import Team from './pages/team/Team';
 import Board from './pages/board/Board';
 import History from './pages/history/History';
 import Contact from './pages/contact/Contact';
+import Education from './pages/education/Education';
 
 function App() {
     return (
@@ -38,6 +39,10 @@ function App() {
                     <Route 
                         path='/contact'
                         element={<Contact />}
+                    />
+                    <Route 
+                        path='/education'
+                        element={<Education />}
                     />
                 </Routes>
             </Router>

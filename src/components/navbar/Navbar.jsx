@@ -16,7 +16,7 @@ const Navbar = () => {
         return () => (window.onscroll = null);
     };
 
-    const iconColor = isScrolled ? 'var(--main-orange)' : 'var(--main-white)';
+    const iconColor = isScrolled ? 'var(--main-orange)' : 'var(--main-black)';
 
     return (
         <div className={isScrolled ? 'navbar scrolled navbar-expand-lg' : 'navbar navbar-expand-lg'}>
@@ -74,7 +74,7 @@ const Navbar = () => {
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
-                                    <Link to="" className="dropdown-item" >Education</Link>
+                                    <Link to="/education" className="dropdown-item" >Education</Link>
                                 </li>
                                 <li>
                                     <Link to="" className="dropdown-item" >Livelihood</Link>
