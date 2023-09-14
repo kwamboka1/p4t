@@ -8,6 +8,9 @@ import Board from './pages/board/Board';
 import History from './pages/history/History';
 import Contact from './pages/contact/Contact';
 import Education from './pages/education/Education';
+import Livelihood from './pages/livelihood/Livelihood';
+import ChildProtection from './pages/childProtection/ChildProtection';
+import Health from './pages/health/Health';
 
 function App() {
     return (
@@ -43,6 +46,18 @@ function App() {
                     <Route 
                         path='/education'
                         element={<Education />}
+                    />
+                    <Route 
+                        path='/livelihood'
+                        element={<Livelihood />}
+                    />
+                    <Route 
+                        path='/child-protection'
+                        element={<ChildProtection />}
+                    />
+                    <Route 
+                        path='/health'
+                        element={<Health />}
                     />
                 </Routes>
             </Router>

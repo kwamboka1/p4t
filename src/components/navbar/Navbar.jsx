@@ -77,13 +77,13 @@ const Navbar = () => {
                                     <Link to="/education" className="dropdown-item" >Education</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Livelihood</Link>
+                                    <Link to="/livelihood" className="dropdown-item" >Livelihood</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Child Protection</Link>
+                                    <Link to="/child-protection" className="dropdown-item" >Child Protection</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Health</Link>
+                                    <Link to="/health" className="dropdown-item" >Health</Link>
                                 </li>
                                 <li>
                                     <Link to="" className="dropdown-item" >Our Impact</Link>
