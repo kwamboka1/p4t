@@ -11,6 +11,8 @@ import Education from './pages/education/Education';
 import Livelihood from './pages/livelihood/Livelihood';
 import ChildProtection from './pages/childProtection/ChildProtection';
 import Health from './pages/health/Health';
+import ECD from './pages/ecd/Ecd';
+import Primary from './pages/primary/Primary';
 
 function App() {
     return (
@@ -46,6 +48,14 @@ function App() {
                     <Route 
                         path='/education'
                         element={<Education />}
+                    />
+                    <Route 
+                        path='/ecd'
+                        element={<ECD />}
+                    />
+                    <Route 
+                        path='/primary'
+                        element={<Primary />}
                     />
                     <Route 
                         path='/livelihood'

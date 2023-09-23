@@ -41,7 +41,7 @@ const Education = () => {
             <div className='section-bg'>
                 <div className='education-grid'>
                     <div className='text-center'>
-                        <a href="/#">
+                        <a href="/ecd">
                             <h6>ECD</h6>
                             <img 
                                 src={Educ}
@@ -52,7 +52,7 @@ const Education = () => {
                         </a>
                     </div>
                     <div className='text-center'>
-                        <a href="/#">
+                        <a href="/primary">
                             <h6>PRIMARY</h6>
                             <img 
                                 src={Educ}
