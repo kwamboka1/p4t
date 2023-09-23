@@ -1,7 +1,7 @@
 const boardMembers = [
     {
       name: 'Bienvenue Byamungu',
-      title: 'Founder and chairman P4T',
+      title: 'Founder P4T',
       imageUrl: 'https://static.wixstatic.com/media/d9e58e_530fc2136eb44eeba240fb9606452091~mv2.jpg/v1/fill/w_216,h_217,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Bienve%201.jpg',
       fbUrl: "https://www.facebook.com/benvenue.byamungu",
       inUrl: "https://www.linkedin.com/in/bienvenu-byamungu-b53b80159/",
