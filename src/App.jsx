@@ -13,6 +13,7 @@ import ChildProtection from './pages/childProtection/ChildProtection';
 import Health from './pages/health/Health';
 import ECD from './pages/ecd/Ecd';
 import Primary from './pages/primary/Primary';
+import SupportP4t from './pages/supportP4t/SupportP4t';
 
 function App() {
     return (
@@ -68,6 +69,10 @@ function App() {
                     <Route 
                         path='/health'
                         element={<Health />}
+                    />
+                    <Route 
+                        path='/support-p4t'
+                        element={<SupportP4t />}
                     />
                 </Routes>
             </Router>

@@ -96,19 +96,19 @@ const Navbar = () => {
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
-                                    <Link to="" className="dropdown-item" >Support P4T</Link>
+                                    <Link to="/support-p4t" className="dropdown-item" >Support P4T</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Support a family</Link>
+                                    <Link to="/support-a-family" className="dropdown-item" >Support a family</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Build a school</Link>
+                                    <Link to="/build-a-school" className="dropdown-item" >Build a school</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Protect a child</Link>
+                                    <Link to="/protect-a-child" className="dropdown-item" >Protect a child</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Keep a child in school</Link>
+                                    <Link to="/keep-a-child-in-school" className="dropdown-item" >Keep a child in school</Link>
                                 </li>
                             </ul>
                         </li>
