@@ -77,8 +77,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 60vh;
+  height: 80vh;
   .intro-text {
-    color: var(--main-orange);
+    font-weight: 600;
+    color: var(--main-white);
+    text-shadow: 4px 4px 4px var(--main-black);
   }
 }

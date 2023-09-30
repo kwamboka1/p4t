@@ -8,7 +8,7 @@ const ECD = () => {
             <Navbar />
             <div className='ecd intro'>
                 <div className='text-center intro-text'>
-                    <h4>Early Childhood Development (ECD)/ Pre-Primary Education.</h4>
+                    <h2>Early Childhood Development (ECD)/<br /> Pre-Primary Education.</h2>
                     {/* <h6></h6> */}
                 </div>
             </div>

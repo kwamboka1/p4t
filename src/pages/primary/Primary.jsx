@@ -8,7 +8,7 @@ const Primary = () => {
             <Navbar />
             <div className='primary intro'>
                 <div className='text-center intro-text'>
-                    <h4>Primary Education.</h4>
+                    <h2>Primary Education.</h2>
                     {/* <h6></h6> */}
                 </div>
             </div>

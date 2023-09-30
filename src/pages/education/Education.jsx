@@ -2,6 +2,11 @@ import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 import './education.scss';
 import Educ from '../../assets/p4t-pupils.jpeg';
+import Ecd from '../../assets/ecd3.jpeg';
+import Sec from '../../assets/secondary.jpeg';
+import FEED from '../../assets/feeding.jpeg';
+import TECH from '../../assets/comp2.jpeg';
+import SCH from '../../assets/secondary3.jpeg';
 
 const Education = () => {
     return (
@@ -44,7 +49,7 @@ const Education = () => {
                         <a href="/ecd">
                             <h6>ECD</h6>
                             <img 
-                                src={Educ}
+                                src={Ecd}
                                 alt=""
                                 width='300'
                                 height='250'
@@ -66,7 +71,7 @@ const Education = () => {
                         <a href="/#">
                             <h6>SECONDARY</h6>
                             <img 
-                                src={Educ}
+                                src={Sec}
                                 alt=""
                                 width='300'
                                 height='250'
@@ -77,7 +82,7 @@ const Education = () => {
                         <a href="/#">
                             <h6>SCHOOL FEEDING</h6>
                             <img 
-                                src={Educ}
+                                src={FEED}
                                 alt=""
                                 width='300'
                                 height='250'
@@ -88,7 +93,7 @@ const Education = () => {
                         <a href="/#">
                             <h6>TECHNOLOGY & INNOVATION</h6>
                             <img 
-                                src={Educ}
+                                src={TECH}
                                 alt=""
                                 width='300'
                                 height='250'
@@ -110,7 +115,7 @@ const Education = () => {
                         <a href="/#">
                             <h6>SCHOLARSHIPS</h6>
                             <img 
-                                src={Educ}
+                                src={SCH}
                                 alt=""
                                 width='300'
                                 height='250'

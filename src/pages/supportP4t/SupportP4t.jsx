@@ -27,7 +27,7 @@ const SupportP4t = () => {
             <Navbar />
             <div className='intro'>
                 <div className='text-center intro-text'>
-                    <h4>SUPPORT OUR WORK</h4>
+                    <h2>SUPPORT OUR WORK</h2>
                     {/* <h6></h6> */}
                 </div>
             </div>
