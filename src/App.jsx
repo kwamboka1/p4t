@@ -14,6 +14,7 @@ import Health from './pages/health/Health';
 import ECD from './pages/ecd/Ecd';
 import Primary from './pages/primary/Primary';
 import SupportP4t from './pages/supportP4t/SupportP4t';
+import SupportFamily from './pages/supportFamily/SupportFamily';
 
 function App() {
     return (
@@ -73,6 +74,10 @@ function App() {
                     <Route 
                         path='/support-p4t'
                         element={<SupportP4t />}
+                    />
+                    <Route
+                        path='/support-a-family'
+                        element={<SupportFamily />}
                     />
                 </Routes>
             </Router>
