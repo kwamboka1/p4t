@@ -17,6 +17,7 @@ import SupportP4t from './pages/supportP4t/SupportP4t';
 import SupportFamily from './pages/supportFamily/SupportFamily';
 import KeepChildSchool from './pages/keepChildSchool/KeepChildSchool';
 import ProtectChild from './pages/protectChild/ProtectChild';
+import BuildSchool from './pages/buildSchool/BuildSchool';
 
 function App() {
     return (
@@ -88,6 +89,10 @@ function App() {
                     <Route
                         path='/protect-a-child'
                         element={<ProtectChild />} 
+                    />
+                    <Route 
+                        path='/build-a-school'
+                        element={<BuildSchool />}
                     />
                 </Routes>
             </Router>
