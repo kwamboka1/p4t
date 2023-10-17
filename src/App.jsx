@@ -15,6 +15,8 @@ import ECD from './pages/ecd/Ecd';
 import Primary from './pages/primary/Primary';
 import SupportP4t from './pages/supportP4t/SupportP4t';
 import SupportFamily from './pages/supportFamily/SupportFamily';
+import KeepChildSchool from './pages/keepChildSchool/KeepChildSchool';
+import ProtectChild from './pages/protectChild/ProtectChild';
 
 function App() {
     return (
@@ -78,6 +80,14 @@ function App() {
                     <Route
                         path='/support-a-family'
                         element={<SupportFamily />}
+                    />
+                    <Route 
+                        path='/keep-a-child-in-school'
+                        element={<KeepChildSchool />}
+                    />
+                    <Route
+                        path='/protect-a-child'
+                        element={<ProtectChild />} 
                     />
                 </Routes>
             </Router>
