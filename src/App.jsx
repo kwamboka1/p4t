@@ -19,6 +19,8 @@ import KeepChildSchool from './pages/keepChildSchool/KeepChildSchool';
 import ProtectChild from './pages/protectChild/ProtectChild';
 import BuildSchool from './pages/buildSchool/BuildSchool';
 import Partner from './pages/partner/Partner';
+import Career from './pages/career/Career';
+import Volunteer from './pages/volunteer/Volunteer';
 
 function App() {
     return (
@@ -98,6 +100,14 @@ function App() {
                     <Route 
                         path='/partner-with-us'
                         element={<Partner />}
+                    />
+                    <Route 
+                        path='/career-in-p4t'
+                        element={<Career />}
+                    />
+                    <Route 
+                        path='/volunteer'
+                        element={<Volunteer />}
                     />
                 </Routes>
             </Router>
