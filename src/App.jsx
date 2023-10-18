@@ -18,6 +18,7 @@ import SupportFamily from './pages/supportFamily/SupportFamily';
 import KeepChildSchool from './pages/keepChildSchool/KeepChildSchool';
 import ProtectChild from './pages/protectChild/ProtectChild';
 import BuildSchool from './pages/buildSchool/BuildSchool';
+import Partner from './pages/partner/Partner';
 
 function App() {
     return (
@@ -93,6 +94,10 @@ function App() {
                     <Route 
                         path='/build-a-school'
                         element={<BuildSchool />}
+                    />
+                    <Route 
+                        path='/partner-with-us'
+                        element={<Partner />}
                     />
                 </Routes>
             </Router>

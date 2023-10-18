@@ -118,13 +118,13 @@ const Navbar = () => {
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
-                                    <Link to="" className="dropdown-item" >Partner with us</Link>
+                                    <Link to="/partner-with-us" className="dropdown-item" >Partner with us</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Career in P4T</Link>
+                                    <Link to="/career-in-p4t" className="dropdown-item" >Career in P4T</Link>
                                 </li>
                                 <li>
-                                    <Link to="" className="dropdown-item" >Volunteer</Link>
+                                    <Link to="/volunteer" className="dropdown-item" >Volunteer</Link>
                                 </li>
                             </ul>
                         </li>
