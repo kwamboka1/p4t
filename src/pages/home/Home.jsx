@@ -353,7 +353,7 @@ const Home = () => {
                     <div className='col-md-3'>
                         <div className='card'>
                             <a 
-                                href='https://thealtenburgfoundation.com/our-work'
+                                href='https://thealtenburgfoundation.com/'
                                 title='The Altenburg Foundation'
                                 target='_blank' 
                                 rel='noreferrer'

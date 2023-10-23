@@ -16,7 +16,8 @@ const Navbar = () => {
         return () => (window.onscroll = null);
     };
 
-    const iconColor = isScrolled ? 'var(--main-orange)' : 'var(--main-black)';
+    const iconColor = isScrolled ? 'var(--main-orange)' : 'var(--main-white)';
+    const linkColor = isScrolled ? 'var(--main-black)' : 'var(--main-white)';
 
     return (
         <div className={isScrolled ? 'navbar scrolled navbar-expand-lg' : 'navbar navbar-expand-lg'}>
@@ -44,10 +45,10 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
                     <ul className="navbar-nav">
                         <li className='nav-item'>
-                            <Link to="/" className="link nav-link active" aria-current="page">Home</Link>
+                            <Link to="/" className="link nav-link active" aria-current="page" style={{ color: linkColor }}>Home</Link>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
                                 About
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
@@ -69,7 +70,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
                                 What we do
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
@@ -91,7 +92,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
                                 Support us
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
@@ -113,7 +114,7 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className="nav-item dropdown">
-                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
                                 Get involved
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
@@ -129,13 +130,11 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/" className="link nav-link">News</Link>
+                            <Link to="/" className="link nav-link" style={{ color: linkColor }}>News</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to="" className='link nav-link'>
-                                {/* <button className='nav-btn fw-bold btn btn-primary btn-lg px-4 '> */}
-                                    Donate
-                                {/* </button> */}
+                            <Link to="" className='link nav-link' style={{ color: linkColor }}>
+                                Donate
                             </Link>
                         </li>
                     </ul>
