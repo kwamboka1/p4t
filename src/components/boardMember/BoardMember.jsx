@@ -29,7 +29,7 @@ const BoardMember = ({ name, title, imageUrl, fbUrl, inUrl, mailUrl, description
             </a>
             <br />
             <button onClick={togglePopup}>
-                <ArrowRightAltIcon className='icon'/>
+                Read More<ArrowRightAltIcon className='icon'/>
             </button>
 
             {isPopupOpen && (

@@ -173,6 +173,12 @@ const Navbar = () => {
                                     <button className='dropdown-item' type='button'>
                                         Norge
                                     </button>
+                                    <button className='dropdown-item' type='button'>
+                                        French
+                                    </button>
+                                    <button className='dropdown-item' type='button'>
+                                        Swahili
+                                    </button>
                                 </div>
                             </div>
                         </li>
