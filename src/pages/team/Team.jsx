@@ -12,7 +12,10 @@ const Team = () => {
             <div className='team intro'>
                 <div className='text-center intro-text'>
                     <h2>Our Team</h2>
-                    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    <h6>
+                        We have a selfless dedicated team of young professionals from all 
+                        walks of life including women, men, refugees and nationals.
+                    </h6>
                 </div>
             </div>
             <div className='section-bg2 p-5'>

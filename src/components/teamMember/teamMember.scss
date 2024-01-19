@@ -1,22 +1,28 @@
 .team-member {
+    text-align: center;
+    margin: 20px;
     img {
         width: 200px;
         height: 200px;
         border-radius: 50%;
+        cursor: pointer;
     }
     h5 {
         text-align: center;
         font-size: 1.5rem;
         font-weight: 500;
+        cursor: pointer;
     }
     h6 {
         text-align: center;
         font-size: 1.1rem;
+        cursor: pointer;
     }
-    button {
-        border: none;
-        background-color: none;
-    }
+    // button {
+    //     border: none;
+    //     background-color: none;
+    //     cursor: pointer;
+    // }
     .popup {
         text-align: center;
     }

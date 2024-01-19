@@ -17,14 +17,15 @@ const TeamMember = ({ name, title, imageUrl, description }) => {
                 alt={name}
                 width=''
                 height=''
+                onClick={togglePopup}
             />
-            <h5>{name}</h5>
-            <h6>{title}</h6>
-            <div className='text-center'>
+            <h5 onClick={togglePopup}>{name}</h5>
+            <h6 onClick={togglePopup}>{title}</h6>
+            {/* <div className='text-center'>
                 <button onClick={togglePopup}>
-                    <ArrowRightAltIcon />
+                    Read More<ArrowRightAltIcon />
                 </button>
-            </div>
+            </div> */}
 
             {isPopupOpen && (
                 <div className="popup">

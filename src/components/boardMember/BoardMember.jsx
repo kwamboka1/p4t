@@ -15,10 +15,14 @@ const BoardMember = ({ name, title, imageUrl, fbUrl, inUrl, mailUrl, description
 
     return (
         <div className="board-member">
-            <img src={imageUrl} alt={name} />
-            <h5>{name}</h5>
-            <h6>{title}</h6>
-            <a href={fbUrl} target='_blank' rel='noreferrer'>
+            <img 
+                src={imageUrl} 
+                alt={name} 
+                onClick={togglePopup}
+            />
+            <h5 onClick={togglePopup}>{name}</h5>
+            <h6 onClick={togglePopup}>{title}</h6>
+            {/* <a href={fbUrl} target='_blank' rel='noreferrer'>
                 <FacebookIcon className='icon'/>
             </a>
             <a href={inUrl} target='_blank' rel='noreferrer'>
@@ -26,11 +30,11 @@ const BoardMember = ({ name, title, imageUrl, fbUrl, inUrl, mailUrl, description
             </a>
             <a href={mailUrl} target='_blank' rel='noreferrer'>
                 <EmailIcon className='icon'/>
-            </a>
+            </a> */}
             <br />
-            <button onClick={togglePopup}>
+            {/* <button onClick={togglePopup}>
                 Read More<ArrowRightAltIcon className='icon'/>
-            </button>
+            </button> */}
 
             {isPopupOpen && (
                 <div className="popup-background">
