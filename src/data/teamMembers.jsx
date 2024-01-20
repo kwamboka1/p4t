@@ -1,3 +1,5 @@
+import Johnam from "../assets/team/Johnam.png";
+
 const teamMembers = [
     {
       name: 'Daniel Khalid Ameny',
@@ -8,7 +10,7 @@ const teamMembers = [
     {
       name: 'Johnam Kambasu',
       title: 'Director of Finance and Administration',
-      imageUrl: 'https://docs.appthemes.com/files/2011/08/gravatar-grey.jpg',
+      imageUrl: Johnam,
       description: '',
     },
     {
