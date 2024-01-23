@@ -2,11 +2,11 @@ import './home.scss';
 import React from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import Footer from '../../components/footer/Footer';
-import Bg from '../../assets/p4t-pupils.jpeg';
-import Bg0 from '../../assets/Bg0.jpg';
-import Bg1 from '../../assets/Bg1.jpg';
-import Bg4 from '../../assets/Bg4.jpg';
-import Bg3 from '../../assets/Bg3.jpg';
+import Educ from '../../assets/p4t-pupils.jpeg';
+import HM from '../../assets/p4t16.jpg';
+import Heal from '../../assets/p4t7.jpg';
+import Liv from '../../assets/p4t12.jpg';
+import CP from '../../assets/p4t3.jpeg';
 import Altenburg from '../../assets/altenburg.svg';
 import Echo from '../../assets/echo.png';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
@@ -23,7 +23,7 @@ const Home = () => {
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img 
-                                src={Bg0} 
+                                src={HM} 
                                 className="d-block w-100" 
                                 alt="Slide 1" 
                             />
@@ -55,7 +55,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="carousel-item ">
-                            <img src={Bg} className="d-block w-100" alt="Slide 2" />
+                            <img src={Educ} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">EDUCATION</h1>
@@ -83,7 +83,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="carousel-item ">
-                            <img src={Bg1} className="d-block w-100" alt="Slide 2" />
+                            <img src={Heal} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">HEALTH</h1>
@@ -111,7 +111,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="carousel-item ">
-                            <img src={Bg4} className="d-block w-100" alt="Slide 2" />
+                            <img src={Liv} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">LIVELIHOOD</h1>
@@ -139,7 +139,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="carousel-item ">
-                            <img src={Bg3} className="d-block w-100" alt="Slide 2" />
+                            <img src={CP} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
                                 <div class="py-5 my-5 text-center">
                                     <h1 className="display-5 fw-bold">CHILD PROTECTION</h1>

@@ -3,16 +3,83 @@ import Navbar from '../../components/navbar/Navbar';
 import './about.scss';
 import React from 'react';
 import abtImg from '../../assets/p4t-pupils.jpeg';
+import Sec from '../../assets/p4t-sec.jpeg';
+import Prim from '../../assets/primary.jpeg';
 import LabelImportantIcon from '@mui/icons-material/LabelImportant';
 
 const About = () => {
     return (
         <div>
             <Navbar />
-            <div className='about intro'>
-                <div className='text-center intro-text'>
-                    <h2>WHO WE ARE</h2>
-                    <h6><em>"We build tomorrow"</em></h6>
+            <div className=''>
+                <div id="carouselExample" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        <div className="carousel-item active">
+                            <img 
+                                src={abtImg}
+                                className="d-block w-100" 
+                                alt="Slide 1" 
+                            />
+                            <div className="carousel-caption">
+                                <div class="px-4 py-5 my-5 text-center">
+                                    <h2 className="display-5 fw-bold">
+                                        WHO WE ARE
+                                    </h2>
+                                    <div className="col-lg-6 mx-auto">
+                                        <h6 className='lead mb-4'><em>"We build tomorrow"</em></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item ">
+                            <img 
+                                src={Sec} 
+                                className="d-block w-100" 
+                                alt="Slide 2" 
+                            />
+                            <div className="carousel-caption text">
+                                <div class="py-5 my-5 text-center">
+                                    <h2 className="display-5 fw-bold">
+                                        LOREM IPSUM
+                                    </h2>
+                                    <div className="col-lg-6 mx-auto">
+                                        <h6 className="lead mb-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            Natus, illo. Nobis id quisquam dignissimos maxime ea, 
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="carousel-item ">
+                            <img 
+                                src={Prim} 
+                                className="d-block w-100" 
+                                alt="Slide 2" 
+                            />
+                            <div className="carousel-caption text">
+                                <div class="py-5 my-5 text-center">
+                                    <h2 className="display-5 fw-bold">
+                                        LOREM IPSUM
+                                    </h2>
+                                    <div className="col-lg-6 mx-auto">
+                                        <h6 className="lead mb-4">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                            Natus, illo. Nobis id quisquam dignissimos maxime ea,
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a className="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </a>
+                    <a className="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </a>
                 </div>
             </div>
             <div className='container abt-text'>

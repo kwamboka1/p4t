@@ -1,11 +1,10 @@
-.about {
-    background-image: url('../../assets/Bg0.jpg');
-}
+.carousel-item img {
+    height: 70vh;
+    // max-height: 60vh;
+    object-fit: cover;
+}  
 
 .abt-text {
-    img {
-        border: 10px solid var(--main-orange);
-    }
     .mission {
         background-color: var(--main-orange);
         color: var(--main-white);

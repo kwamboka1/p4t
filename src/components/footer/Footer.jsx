@@ -24,12 +24,10 @@ const Footer = () => {
                         </div>
 
                         <div className="col-6 col-md-4 mb-3">
-                            <h6>About Us</h6>
-                            <p className='flex-column'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                optio, eaque rerum!
+                            <p className='pt-5 flex-column'>
+                                <strong>Planning for Tomorrow Youth Organisation</strong> is located in 
+                                Block 1 Kyebitaka Village, Kasonga Parish, Kyangwali Refugee Settlement, 
+                                Kikuube District. P.O. Box 249 Hoima, Uganda.
                             </p>
                         </div>
 
