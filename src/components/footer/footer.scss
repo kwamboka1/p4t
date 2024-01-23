@@ -1,0 +1,26 @@
+.main-footer {
+    background-color: var(--main-black);
+    color: var(--main-white);
+
+    a {
+        color: var(--main-white);
+
+        &:hover {
+            color: var(--main-orange);
+        }
+    }
+
+    .subscribe-btn:hover {
+        background-color: var(--main-white);
+        color: var(--main-black);
+    }
+
+    .footer-icon {
+        cursor: pointer;
+        font-size: 30px;
+
+        &:hover {
+            color: var(--main-orange);
+        }
+    }
+}

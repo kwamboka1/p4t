@@ -16,55 +16,38 @@ const About = () => {
                 </div>
             </div>
             <div className='container abt-text'>
-                <div className='row'>
-                    <h3 className='text-center py-5'>ABOUT PLANNING FOR TOMORROW (P4T)</h3>
-                    <p className='text-center'>
-                        <em>
-                            <strong>Planning for Tomorrow (P4T)</strong> is a volunteer-based, 
-                            non-profit organization started by <strong>refugee youth</strong> in 
-                            November 2007 in Kyangwali refugee settlement, Kikuube district, Uganda 
-                            which was legal registered in 2013 with <strong>Registration number 
-                            CD/WG/0199/13</strong> and Incorporated <strong>URSB Registration No: 
-                            80020002652537.</strong>
-                        </em>
+                <div className='p-5'>
+                    <p>
+                        <strong>Planning For Tomorrow Youth Organisation (P4T)</strong>  is a volunteer-based, 
+                        non-profit organization which was started by <strong>refugees</strong> in November 2007 
+                        in Kyangwali refugee settlement, Kikuube district, Uganda. It was legally registered in 
+                        2013 with <strong>Registration number CD/WG/0199/13</strong> and Incorporated with
+                        <strong>URSB Registration No: 80020002652537.</strong>
                     </p>
-                    <p className='text-center'>
-                        <em>
-                            In 2021, P4T was fully registered in <strong>Norway</strong> with 
-                            <strong>Registration number 926 924 826</strong> with the main purpose 
-                            to fundraise and raise resources needed to support P4T's projects in Uganda 
-                            and also to promote multicultural diversity in Norway by promoting 
-                            Integration and intercultural dialogue and work with a diverse and inclusive society.
-                        </em>
+                    <p>
+                        In 2021, P4T was fully registered in <strong>Norway</strong> with <strong>Registration 
+                        number 926 924 826</strong> with the main purpose of fundraising resources to support 
+                        P4T's projects in Uganda and also to promote multicultural diversity in Norway by promoting 
+                        integration and intercultural dialogue and work with a diverse and inclusive society.
                     </p>
-                    <div className='col-md-6'>
-                        <p>
-                            The founders arrived in Kyangwali Refugee settlement from DR-CONGO, 
-                            South Sudan, Rwanda, Kenya and Burundi, along with thousands of refugees 
-                            fleeing war, violence, hunger and problems resulting from conflicts in 
-                            their home countries since 1996. Today, there are over 1.5 million refugees 
-                            in Uganda and 80% are children and women. Uganda is the third largest 
-                            refugee host country in the world and the largest refugee host country 
-                            in Africa.
-                        </p>
-                        <p>
-                            We are seeking to bring solutions to refugees and the host community’s most 
-                            touching, top three issues identified in Uganda, which is, Education, 
-                            Unemployment and Health, by providing quality education, health, livelihood 
-                            and Child protection/community service. We believe that by using the people 
-                            who are part of the community suffering the problems, the best solutions 
-                            can be achieved. We therefore use the Human Centre Design (HCD) approach, 
-                            a Bottom-Up Strategy as there is nothing for us without us.
-                        </p>
-                    </div>
-                    <div className='col-md-6'>
-                        <img 
-                            src={abtImg}
-                            alt=''
-                            width='100%'
-                            height='100%'
-                        />
-                    </div>
+                    <p>
+                        P4T works in four thematic areas of <strong>Education, Health, Livelihoods</strong> and 
+                        <strong>Protection & Community Services.</strong> 
+                    </p>
+                    <p>
+                        According to UNHCR, there are over 1.5 million refugees in Uganda and 80% are children and 
+                        women. Uganda is the third largest refugee host country in the world and the largest refugee 
+                        host country in Africa.
+                    </p>
+                    <p>
+                        We seek to alleviate the suffering of millions of refugees and host communities and promote 
+                        coexistence for a self-reliant and sustainable humanity.
+                    </p>
+                    <p>
+                        We believe that by using the people who are part of the community suffering the problems, 
+                        the best solutions can be achieved. We therefore use the Human Centre Design (HCD) approach, 
+                        a Bottom-Up Strategy in designing our projects because there is nothing for us without us.
+                    </p>
                 </div>
                 <div className='p-5'>
                     <hr />
