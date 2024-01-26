@@ -143,8 +143,8 @@ const About = () => {
                 </div>
             </div>
             <div className='section-bg'>
-                <div className='row'>
-                    <div className='col-md-6 pt-5'>
+                <div className='container'>
+                    <div className='p-5'>
                         <h5 className='pt-4'>
                             P4T programming is guided by the following five strategic objectives:
                         </h5>
@@ -169,42 +169,44 @@ const About = () => {
                             <span>To educate the community on the importance of a clean and protected environment.</span>
                         </div>
                     </div>
-                    <div className='col-md-6'>
-                        <h5>
-                            P4T’s core values
-                        </h5>
-                        <h6>
-                            We are guided by and strive to uphold the following core values in all 
-                            the activities we undertake:
-                        </h6>
-                        <ul>
-                            <li>
-                                <strong>Integrity: </strong>
-                                We are transparent and honest in all we do, keeping our promise to all stakeholders.
-                            </li>
-                            <li>
-                                <strong>Commitment: </strong>
-                                Stand beside and advocate for those who have been denied choice and 
-                                opportunity. We recognize and use the power of diversity to achieve 
-                                more together.
-                            </li>
-                            <li>
-                                <strong>Empowerment: </strong>
-                                Empower poor and marginalized people to take charge of their own 
-                                development. Share skills and knowledge to create long lasting, 
-                                sustainable change.
-                            </li>
-                            <li>
-                                <strong>Equality: </strong>
-                                Promote diversity and equality throughout our work.
-                            </li>
-                            <li>
-                                <strong>Humanity: </strong>
-                                We value respect, acceptance, consideration, appreciation, listening, 
-                                openness, affection, empathy and love towards other human beings.
-                            </li>
-                        </ul>
-                    </div>
+                </div>
+            </div>
+            <div className='container'>
+                <div className='p-5'>
+                    <h5>
+                        P4T’s core values
+                    </h5>
+                    <h6>
+                        We are guided by and strive to uphold the following core values in all 
+                        the activities we undertake:
+                    </h6>
+                    <ul>
+                        <li>
+                            <strong>Integrity: </strong>
+                            We are transparent and honest in all we do, keeping our promise to all stakeholders.
+                        </li>
+                        <li>
+                            <strong>Commitment: </strong>
+                            Stand beside and advocate for those who have been denied choice and 
+                            opportunity. We recognize and use the power of diversity to achieve 
+                            more together.
+                        </li>
+                        <li>
+                            <strong>Empowerment: </strong>
+                            Empower poor and marginalized people to take charge of their own 
+                            development. Share skills and knowledge to create long lasting, 
+                            sustainable change.
+                        </li>
+                        <li>
+                            <strong>Equality: </strong>
+                            Promote diversity and equality throughout our work.
+                        </li>
+                        <li>
+                            <strong>Humanity: </strong>
+                            We value respect, acceptance, consideration, appreciation, listening, 
+                            openness, affection, empathy and love towards other human beings.
+                        </li>
+                    </ul>
                 </div>
             </div>
             <Footer />

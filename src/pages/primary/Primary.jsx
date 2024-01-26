@@ -15,32 +15,35 @@ const Primary = () => {
             <div className='section-bg'>
                 <div className='container'>
                     <p>
-                        The school is community-owned; started and led by refugees so that refugee 
-                        children and vulnerable Ugandan children have access to quality education.
-                        P4T is providing quality primary education for refugees and Ugandan infants 
-                        from age 6 years to 17 years old. P4T Primary school started in 2016 the lower 
-                        primary classes with only 30 children but today we educate over 500 children. 
-                        On the 21st February 2018, P4T Primary School was licensed with the Ministry 
-                        of Education and Sport with license number ME/P/9478. We believe in the power 
-                        of education to prepare refugees for a brighter future. “Refugee children, 
-                        future leaders”, says Bienvenu Byamungu, Co- founder and Global Director of P4T.
+                        The importance of primary education in Uganda cannot be underscored. A big number of pupils in Uganda drop 
+                        out of school at this stage. Primary school education is the only basic education that such pupils can, in 
+                        most cases, ever be exposed to. Basic education means the minimum package of learning, which every individual 
+                        must receive to live as a good and useful citizen in society.
                     </p>
                     <p>
-                        We have educated over 1200 children in primary education since 2015, have 
-                        registered 44 finalists at the Uganda National Examinations Board and we 
-                        prepare students to transition effectively into secondary school and have over 
-                        571 children attending school our primary and ECD.
+                        Uganda welcomes many refugees from different countries yet Uganda has no infrastructure to respond positively 
+                        to the basic needs of refugees. Refugee children are highly affected by this because they have no money to pay 
+                        for primary education. The government primary schools are very few to accommodate both refugee children and the 
+                        nationals. These schools are far from the places where refugees live and can only take very few refugee children.
                     </p>
                     <p>
-                        P4T Education is unique where all the children receive two meals a day to keep them 
-                        in school. We have school computers that allows the children to acquire computer 
-                        skills, access online studies. We also provide on-campus accommodation to primary 
-                        six and candidate students and we hope to establish accommodation for orphaned, 
-                        unaccompanied minors and other vulnerable children in order to access education.
+                        The best protection to refugee children is to ensure that they are in schools and this also helps them to develop 
+                        and be good people important to the community and their countries.
                     </p>
                     <p>
-                        P4T mission is to provide quality education to build a sustainable young 
-                        generation with knowledge and skills.
+                        P4T has been running a primary education program for refugees and national children from 7 years to 18 years in 
+                        Kyangwali Refugee Settlement since 2016. P4T Primary school started in 2016 with the lower primary classes with 
+                        an enrolment of 30 children but today we support <strong>423 (218 girls and 205 boys) children</strong> from 
+                        primary one to primary seven.
+                    </p>
+                    <p>
+                        ​We have educated over 1200 children in primary education since 2015, registering 44 finalists at the Primary 
+                        Leaving Examinations (PLE) with Uganda National Examinations Board (UNEB) who have passed to transition effectively 
+                        into secondary school.
+                    </p>
+                    <p>
+                        P4T’s primary education mission is to provide quality education to build a sustainable young generation with 
+                        knowledge and skills.
                     </p>
                 </div>
             </div>
