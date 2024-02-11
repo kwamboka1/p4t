@@ -1,4 +1,5 @@
 import Johnam from "../assets/team/Johnam.png";
+import Aliziki from "../assets/team/ALIIZIKI.jpg";
 
 const teamMembers = [
     {
@@ -28,7 +29,7 @@ const teamMembers = [
     {
       name: 'Aliziki Abigaba',
       title: 'Human Resource Officer',
-      imageUrl: 'https://docs.appthemes.com/files/2011/08/gravatar-grey.jpg',
+      imageUrl: Aliziki,
       description: '',
     },
     {

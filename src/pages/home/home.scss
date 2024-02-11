@@ -38,6 +38,9 @@
         font-size: 70px !important;
         color: var(--main-orange);
     }
+    h6 {
+        font-size: 1.3rem;
+    }
 }
 
 .circle {
@@ -66,6 +69,14 @@
     font-size: 20px;
 }
 
+.header-3 {
+    font-size: 2.7rem;
+}
+
+.header-5 {
+    font-size: 2rem;
+}
+
 .partners {
     h5 {
         color: var(--main-orange);
@@ -78,5 +89,6 @@
 .people {
     img {
         border-radius: 50%;
+        margin: 0 auto;
     }
 }

@@ -181,7 +181,7 @@ const Home = () => {
                 <div className='row text-center p-5'>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
                         <RadioButtonCheckedIcon className='icon' />
-                        <h5>Our Mission</h5>
+                        <h5 className='header-5'>Our Mission</h5>
                         <h6>
                             Empowering communities to be healthy and self-reliant through provision 
                             of knowledge and skills
@@ -189,7 +189,7 @@ const Home = () => {
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
                         <RemoveRedEyeIcon className='icon' />
-                        <h5>Our Vision</h5>
+                        <h5 className='header-5'>Our Vision</h5>
                         <h6>
                             A healthy and self-reliant community that is empowered with knowledge 
                             and skills.
@@ -197,7 +197,7 @@ const Home = () => {
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 md-screen'>
                         <KeyIcon className='icon' />
-                        <h5>Our Values</h5>
+                        <h5 className='header-5'>Our Values</h5>
                         <h6>
                             Integrity, Commitment, Empowerment, Equality, Humanity
                         </h6>
@@ -240,7 +240,7 @@ const Home = () => {
                     ></iframe>
                     </div>
                     <div className='col-md-6'>
-                        <h3 className='pt-5'>Medical Mission 2023</h3>
+                        <h3 className='pt-5 header-3'>Medical Mission 2023</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             Alias dolorem nesciunt nisi. Harum aspernatur corporis at 
@@ -251,7 +251,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='section-bg'>
-                <h3 className='text-center pb-2'>Our Impact</h3>
+                <h3 className='text-center pb-2 header-3'>Our Impact</h3>
                 <div className='row text-center'>
                     <div className='col-md-3'>
                         <div className='circle'>
@@ -286,8 +286,8 @@ const Home = () => {
             </div>
             <div className='container py-5 partners'>
                 <div className='text-center pb-5'>
-                    <h3>Our Partners</h3>
-                    <h5>Partnership for a better future</h5>
+                    <h3 className='header-3'>Our Partners</h3>
+                    <h5 className='header-5'>Partnership for a better future</h5>
                 </div>
                 <div className='row text-center'>
                     <div className='col-md-3'>
@@ -535,7 +535,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='section-bg people'>
-                <h3 className='text-center pb-5'>what people are saying about our work</h3>
+                <h3 className='text-center pb-5 header-3'>what people are saying about our work</h3>
                 <div className='row text-center'>
                     <div className='col-md-3'>
                         <img 

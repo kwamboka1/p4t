@@ -3,8 +3,6 @@
 .navbar{
     width: 100%;
     color: var(--main-white);
-    // text-shadow: 2px 2px 2px var(--main-black);
-    // font-size: 14px;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -14,10 +12,19 @@
         background-color: var(--main-white);
         margin: 0;
     }
-    // .container-fluid {
-    //     background-color: rgba(255, 255, 255, 0.5);
-    //     margin: 20px;
-    // }
+    @media (max-width: 1320px) {
+        .collapse {
+          display: none !important;
+        }
+        
+        .navbar-toggler {
+          display: block !important;
+        }
+        
+        .navbar-collapse {
+          display: none !important;
+        }
+      }
 }
 
 .link {
@@ -28,16 +35,3 @@
 .right {
     padding-left: 50px;
 }
-
-// .nav-btn {
-//     font-size: 25px;
-//     color: var(--main-white);
-//     background-color: var(--main-orange);
-//     border: none;
-//     border-radius: none;
-//     padding: 5px;
-// }
-
-// .nav-btn:hover {
-//     background-color: var(--main-orange);
-// }
