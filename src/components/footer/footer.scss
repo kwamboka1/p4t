@@ -8,10 +8,26 @@
         &:hover {
             color: var(--main-orange);
         }
+        @media (max-width: 991px) {
+            font-size: 0.9rem;
+        }
+    }
+
+    h6 {
+        font-size: 1.4rem;
+        @media (max-width: 991px) {
+            font-size: 1rem;
+        }
     }
 
     p {
         font-size: 1.2rem;
+        @media (max-width: 991px) {
+            font-size: 1rem;
+        }
+        @media (max-width: 450px) {
+            font-size: 0.8rem;
+        }
     }
 
     .subscribe-btn:hover {
@@ -25,6 +41,12 @@
 
         &:hover {
             color: var(--main-orange);
+        }
+        @media (max-width: 991px) {
+            font-size: 25px;
+        }
+        @media (max-width: 450px) {
+            font-size: 20px;
         }
     }
 }

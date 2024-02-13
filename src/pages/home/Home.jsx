@@ -9,6 +9,8 @@ import Liv from '../../assets/p4t12.jpg';
 import CP from '../../assets/p4t3.jpeg';
 import Altenburg from '../../assets/altenburg.svg';
 import Echo from '../../assets/echo.png';
+import SFL from '../../assets/2SchoolWhite.png';
+import FOL from '../../assets/FOL-weblogo.png';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import KeyIcon from '@mui/icons-material/Key';
@@ -528,6 +530,37 @@ const Home = () => {
                                 src={Echo}
                                 alt=''
                                 width='150'
+                                height='150'
+                            />
+                        </a>
+                    </div>
+                    <div className='col-md-3'>
+                        <a 
+                            href='https://www.schoolforlife.org.au/?gad_source=1&gclid=Cj0KCQiAw6yuBhDrARIsACf94RV9qfQNHbYL1b-rJ70QE6NPUkJun1hqpBFYkqXvGapHLaPsyheodOEaAua5EALw_wcB#'
+                            title='SCHOOL FOR LIFE'
+                            target='_blank' 
+                            rel='noreferrer'
+                            className='card p-2'
+                        >
+                            <img 
+                                src={SFL}
+                                alt=''
+                                width='150'
+                                height='150'
+                            />
+                        </a>
+                    </div>
+                    <div className='col-md-3'>
+                        <a 
+                            href='https://www.folfoundation.com/'
+                            title='FOUNTAIN OF LIFE'
+                            target='_blank' 
+                            rel='noreferrer'
+                        >
+                            <img 
+                                src={FOL}
+                                alt=''
+                                width='300'
                                 height='150'
                             />
                         </a>
