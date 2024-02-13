@@ -12,26 +12,27 @@
         background-color: var(--main-white);
         margin: 0;
     }
-    @media (max-width: 1320px) {
-        .collapse {
-          display: none !important;
+    .link {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .left {
+        padding-left: 400px;
+        @media (max-width: 1700px) {
+            padding-left: 200px;
         }
-        
-        .navbar-toggler {
-          display: block !important;
+        @media (max-width: 1500px) {
+            padding-left: 100px;
         }
-        
-        .navbar-collapse {
-          display: none !important;
+        @media (max-width: 1400px) {
+            padding-left: 0px;
         }
-      }
+    }
+    
+    .right {
+        .icon {
+            font-size: 16px;
+        }
+    }
 }
 
-.link {
-    font-size: 22px;
-    font-weight: 600;
-}
-
-.right {
-    padding-left: 50px;
-}

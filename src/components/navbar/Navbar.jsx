@@ -26,8 +26,8 @@ const Navbar = () => {
                     <img 
                         src={Logo}
                         alt=""
-                        width="90"
-                        height="90"
+                        width="80"
+                        height="80"
                         className="mx-5"
                     />
                 </Link>
@@ -43,13 +43,13 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDarkDropdown">
-                    <ul className="navbar-nav">
+                    <ul className="navbar-nav left">
                         <li className='nav-item'>
                             <Link to="/" className="link nav-link active" aria-current="page" style={{ color: linkColor }}>Home</Link>
                         </li>
                         <li className="nav-item dropdown">
                             <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
-                                About
+                                About Us
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
@@ -71,7 +71,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
-                                What we do
+                                What We Do
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
@@ -93,7 +93,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
-                                Support us
+                                Support Us
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
@@ -115,7 +115,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
-                                Get involved
+                                Get Involved
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
@@ -130,7 +130,9 @@ const Navbar = () => {
                             </ul>
                         </li>
                         <li className='nav-item'>
-                            <Link to="/" className="link nav-link" style={{ color: linkColor }}>News</Link>
+                            <Link to="/" className="link nav-link" style={{ color: linkColor }}>
+                                News
+                            </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to="" className='link nav-link' style={{ color: linkColor }}>
