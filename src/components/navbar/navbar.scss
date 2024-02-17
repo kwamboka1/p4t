@@ -16,6 +16,15 @@
         font-size: 18px;
         font-weight: 700;
     }
+    .donate {
+        border: 3px solid var(--main-orange);
+        border-top-right-radius: 100%;
+        border-bottom-right-radius: 100%;
+        &:hover {
+            background-color: var(--main-orange);
+            // color: var(--main-white);
+        }
+    }
     .left {
         padding-left: 400px;
         @media (max-width: 1700px) {

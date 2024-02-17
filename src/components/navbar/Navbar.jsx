@@ -93,7 +93,7 @@ const Navbar = () => {
                         </li>
                         <li className="nav-item dropdown">
                             <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
-                                Support Us
+                                Get Involved
                             </Link>
                             <ul className="dropdown-menu dropdown-menu-light">
                                 <li>
@@ -113,7 +113,7 @@ const Navbar = () => {
                                 </li>
                             </ul>
                         </li>
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <Link to="" className="link nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" style={{ color: linkColor }}>
                                 Get Involved
                             </Link>
@@ -128,13 +128,13 @@ const Navbar = () => {
                                     <Link to="/volunteer" className="dropdown-item" >Volunteer</Link>
                                 </li>
                             </ul>
-                        </li>
+                        </li> */}
                         <li className='nav-item'>
                             <Link to="/" className="link nav-link" style={{ color: linkColor }}>
                                 News
                             </Link>
                         </li>
-                        <li className='nav-item'>
+                        <li className='nav-item donate'>
                             <Link to="" className='link nav-link' style={{ color: linkColor }}>
                                 Donate
                             </Link>

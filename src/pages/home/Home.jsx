@@ -182,19 +182,19 @@ const Home = () => {
             <div className='container statements'>
                 <div className='row text-center p-5'>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
-                        <RadioButtonCheckedIcon className='icon' />
-                        <h5 className='header-5'>Our Mission</h5>
-                        <h6>
-                            Empowering communities to be healthy and self-reliant through provision 
-                            of knowledge and skills
-                        </h6>
-                    </div>
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
                         <RemoveRedEyeIcon className='icon' />
                         <h5 className='header-5'>Our Vision</h5>
                         <h6>
                             A healthy and self-reliant community that is empowered with knowledge 
                             and skills.
+                        </h6>
+                    </div>
+                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                        <RadioButtonCheckedIcon className='icon' />
+                        <h5 className='header-5'>Our Mission</h5>
+                        <h6>
+                            Empowering communities to be healthy and self-reliant through provision 
+                            of knowledge and skills
                         </h6>
                     </div>
                     <div className='col-lg-4 col-md-6 col-sm-12 md-screen'>
@@ -206,7 +206,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="section-bg">
+            <div className="section-bg statements-2">
                 <div className='row'>
                     <div className='col-lg-4 col-md-6 col-sm-12'>
                         <h6>
@@ -220,7 +220,7 @@ const Home = () => {
                             Uganda has over 1.5 million refugees, of which over 80% are women and children
                         </h6>
                     </div>
-                    <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <div className='col-lg-4 col-md-6 col-sm-12 md-screen'>
                         <h6>
                             <FormatQuoteIcon className='icon' />
                             86% of refugee secondary school students and 25% of primary school children in 
@@ -229,7 +229,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='container py-5'>
+            <div className='container py-5 medical-mission'>
                 <div className='row'>
                     <div className='col-md-6'>
                     <iframe 
@@ -242,7 +242,7 @@ const Home = () => {
                     ></iframe>
                     </div>
                     <div className='col-md-6'>
-                        <h3 className='pt-5 header-3'>Medical Mission 2023</h3>
+                        <h3 className='pt-3 header-3'>Medical Mission 2023</h3>
                         <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                             Alias dolorem nesciunt nisi. Harum aspernatur corporis at 
@@ -255,21 +255,21 @@ const Home = () => {
             <div className='section-bg'>
                 <h3 className='text-center pb-2 header-3'>Our Impact</h3>
                 <div className='row text-center'>
-                    <div className='col-md-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12'>
                         <div className='circle'>
                             <div className='indicator text-center'>
                                 12,000+<br /> Both Refugees and Nationals Students we have educated.
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12'>
                         <div className='circle'>
                             <div className='indicator text-center'>
                                 Provided direct health services to 6,000+ patients and trained 230 health workers.
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12'>
                         <div className='circle'>
                             <div className='indicator text-center'>
                                 5,000 child protection<br /> and GBV cases supported and referred and 1,500 
@@ -277,7 +277,7 @@ const Home = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-lg-3 col-md-6 col-sm-12'>
                         <div className='circle'>
                             <div className='indicator text-center'>
                                 1,200 trained<br /> in marketable vocational and entrepreneurship skills program
