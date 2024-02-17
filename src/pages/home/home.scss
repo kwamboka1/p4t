@@ -162,6 +162,12 @@
 
 .header-5 {
     font-size: 2rem;
+    @media (max-width: 767px) {
+        font-size: 1.8rem;
+    }
+    @media (max-width: 400px) {
+        font-size: 1.5rem;
+    }
 }
 
 .partners {
@@ -171,11 +177,28 @@
     .card {
         background-color: var(--main-black);
     }
+    .col-sm-12 {
+        @media (max-width: 767px) {
+            padding: 5px;
+        }
+    }
 }
 
 .people {
     img {
         border-radius: 50%;
         margin: 0 auto;
+    }
+    h6 {
+        font-size: 1.4rem;
+        @media (max-width: 991px) {
+            font-size: 1.2rem;
+        }
+    }
+    p {
+        font-size: 1.3rem;
+        @media (max-width: 991px) {
+            font-size: 1.1rem;
+        }
     }
 }

@@ -292,7 +292,7 @@ const Home = () => {
                     <h5 className='header-5'>Partnership for a better future</h5>
                 </div>
                 <div className='row text-center'>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://medicalteams.org/' 
                             title='Medical Teams International' 
@@ -307,7 +307,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://piousprojects.org/'
                             title='Pious Projects' 
@@ -322,7 +322,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://mcc.org/'
                             title='MCC'
@@ -337,7 +337,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://refuaid.org/'
                             title='RefuAid'
@@ -352,7 +352,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <div className='card'>
                             <a 
                                 href='https://thealtenburgfoundation.com/'
@@ -369,7 +369,7 @@ const Home = () => {
                             </a>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.wvi.org/'
                             title='World Vision'
@@ -384,7 +384,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.weltwaerts.de/en/home.html'
                             title='weltwaerts'
@@ -399,7 +399,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.unhcr.org/'
                             title='UNHCR'
@@ -414,7 +414,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.responseinnovationlab.com/'
                             title='Response Innovation Lab' 
@@ -429,7 +429,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.coburwas.org/'
                             title='CIYOTA'
@@ -444,7 +444,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://pumpkin-sailfish-jm9f.squarespace.com/'
                             title='Aid Pioneers'
@@ -459,7 +459,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.fundacionarnholddelacamara.org/'
                             title='Fundacion Arnhold De La Camara'
@@ -474,7 +474,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.buildchurchafrica.org/'
                             title='Build Church Africa'
@@ -489,7 +489,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.nrc.no/'
                             title='NRC'
@@ -504,7 +504,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.warchildholland.org/'
                             title='War Child Holland'
@@ -519,7 +519,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='/#'
                             title='ECHO'
@@ -534,7 +534,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.schoolforlife.org.au/?gad_source=1&gclid=Cj0KCQiAw6yuBhDrARIsACf94RV9qfQNHbYL1b-rJ70QE6NPUkJun1hqpBFYkqXvGapHLaPsyheodOEaAua5EALw_wcB#'
                             title='SCHOOL FOR LIFE'
@@ -550,7 +550,7 @@ const Home = () => {
                             />
                         </a>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <a 
                             href='https://www.folfoundation.com/'
                             title='FOUNTAIN OF LIFE'
@@ -570,7 +570,7 @@ const Home = () => {
             <div className='section-bg people'>
                 <h3 className='text-center pb-5 header-3'>what people are saying about our work</h3>
                 <div className='row text-center'>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <img 
                             src='https://static.wixstatic.com/media/d9e58e_64c5beded979464c9be5a150c5503cf9~mv2.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Alliance%20bilde.jpg'
                             alt=''
@@ -587,7 +587,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <img 
                             src='https://static.wixstatic.com/media/d9e58e_00e4374b83404e36a93f20bb4b647bbc~mv2.jpg/v1/fill/w_200,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/story%202a.jpg'
                             alt=''
@@ -604,7 +604,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <img 
                             src='https://static.wixstatic.com/media/d9e58e_82460d1f056647b5aa17ef381390418e~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/WhatsApp%20Image%202022-04-28%20at%2018_44_edited.png'
                             alt=''
@@ -620,7 +620,7 @@ const Home = () => {
                             </p>
                         </div>
                     </div>
-                    <div className='col-md-3'>
+                    <div className='col-sm-12 col-md-6 col-lg-3'>
                         <img 
                             src='https://static.wixstatic.com/media/d9e58e_684f50bb54c144548f18b033fac72072~mv2.jpeg/v1/fill/w_200,h_200,al_c,lg_1,q_80,enc_auto/WhatsApp%20Image%202022-04-29%20at%2016_44_25.jpeg'
                             alt=''
