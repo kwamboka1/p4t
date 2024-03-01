@@ -143,21 +143,21 @@ const Navbar = () => {
                     <ul className="right navbar-nav ml-auto">
                         <li className='nav-item'>
                             <Link to='' className='nav-link'>
-                                <FacebookIcon className='icon' style={{ color: iconColor }}/>
+                                <FacebookIcon className='icon icon-2' style={{ color: iconColor }}/>
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='' className='nav-link'>
-                                <InstagramIcon className='icon' style={{ color: iconColor }}/>
+                                <InstagramIcon className='icon icon-2' style={{ color: iconColor }}/>
                             </Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='' className='nav-link'>
-                                <YouTubeIcon className='icon' style={{ color: iconColor }}/>
+                                <YouTubeIcon className='icon icon-2' style={{ color: iconColor }}/>
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <div className='dropdown'>
+                            <div className='dropdown icon-3'>
                                 <button
                                     className='fw-bold btn px-4 dropdown-toggle'
                                     type='button'
