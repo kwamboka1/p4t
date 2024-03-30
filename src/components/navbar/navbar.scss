@@ -6,22 +6,26 @@
     position: fixed;
     top: 0;
     z-index: 999;
-    background-color: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
-
+    // background-color: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.3) 50%);
+    
     &.scrolled{
         background-color: var(--main-white);
         margin: 0;
     }
 
+
+
     .navbar-toggler {
         border: none;
-        // background-color: var(--main-white);
     }
-
     .navbar-collapse {
-        background-color: var(--main-orange);
         padding: 8px;
-        // text-align: center;
+        background-color: rgba(0, 0, 0, 0.3); /* Initial background color */
+        
+        &.scrolled {
+            background-color: var(--main-orange); /* Solid orange background when scrolled */
+            margin: 0;
+        }
     }
 
     .link {

@@ -30,7 +30,7 @@ const Home = () => {
                                 alt="Slide 1" 
                             />
                             <div className="carousel-caption">
-                                <div class="px-4 py-5 my-5 text-center">
+                                <div class="px-4 py-5 my-10 text-center">
                                     <h1 className="display-5 fw-bold">
                                         Planning For Tomorrow Youth Organisation
                                     </h1>
@@ -59,7 +59,7 @@ const Home = () => {
                         <div className="carousel-item ">
                             <img src={Educ} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
-                                <div class="py-5 my-5 text-center">
+                                <div class="py-5 my-10 text-center">
                                     <h1 className="display-5 fw-bold">EDUCATION</h1>
                                     <div className="col-lg-6 mx-auto">
                                         <p className="lead mb-4">
@@ -87,7 +87,7 @@ const Home = () => {
                         <div className="carousel-item ">
                             <img src={Heal} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
-                                <div class="py-5 my-5 text-center">
+                                <div class="py-5 my-10 text-center">
                                     <h1 className="display-5 fw-bold">HEALTH</h1>
                                     <div className="col-lg-6 mx-auto">
                                         <p className="lead mb-4">
@@ -115,7 +115,7 @@ const Home = () => {
                         <div className="carousel-item ">
                             <img src={Liv} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
-                                <div class="py-5 my-5 text-center">
+                                <div class="py-5 my-10 text-center">
                                     <h1 className="display-5 fw-bold">LIVELIHOOD</h1>
                                     <div className="col-lg-6 mx-auto">
                                         <p className="lead mb-4">
@@ -143,7 +143,7 @@ const Home = () => {
                         <div className="carousel-item ">
                             <img src={CP} className="d-block w-100" alt="Slide 2" />
                             <div className="carousel-caption text">
-                                <div class="py-5 my-5 text-center">
+                                <div class="py-5 my-10 text-center">
                                     <h1 className="display-5 fw-bold">CHILD PROTECTION</h1>
                                     <div className="col-lg-6 mx-auto">
                                         <p className="lead mb-4">
