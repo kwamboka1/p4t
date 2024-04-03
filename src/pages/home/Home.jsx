@@ -15,6 +15,7 @@ import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import KeyIcon from '@mui/icons-material/Key';
 import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';
+import { Margin } from '@mui/icons-material';
 
 const Home = () => {
     return (
@@ -317,8 +318,9 @@ const Home = () => {
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_ccf82770a43c4b65a2fc46d200bf00fe~mv2.png/v1/fill/w_220,h_29,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/PIOUS%20America%20Project.png'
                                 alt=''
-                                width=''
+                                width='200'
                                 height=''
+                                
                             />
                         </a>
                     </div>
@@ -364,7 +366,7 @@ const Home = () => {
                                     src={Altenburg}
                                     alt=''
                                     width='150'
-                                    height='150'
+                                    height='80'
                                 />
                             </a>
                         </div>
@@ -394,8 +396,8 @@ const Home = () => {
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_515be626d4ca44ed81c2e9aebc3c8938~mv2.png/v1/fill/w_220,h_210,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/index.png'
                                 alt=''
-                                width=''
-                                height=''
+                                width='100'
+                                height='auto'
                             />
                         </a>
                     </div>
@@ -409,8 +411,8 @@ const Home = () => {
                             <img 
                                 src='https://static.wixstatic.com/media/d9e58e_b0346151c4ab454abb81b2eb44c868c9~mv2.jpg/v1/fill/w_197,h_210,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/UNHCR.jpg'
                                 alt=''
-                                width=''
-                                height=''
+                                width='40%'
+                                height='auto'
                             />
                         </a>
                     </div>
@@ -530,7 +532,7 @@ const Home = () => {
                                 src={Echo}
                                 alt=''
                                 width='150'
-                                height='150'
+                                height='auto'
                             />
                         </a>
                     </div>
@@ -546,7 +548,7 @@ const Home = () => {
                                 src={SFL}
                                 alt=''
                                 width='150'
-                                height='150'
+                                height='auto'
                             />
                         </a>
                     </div>
@@ -560,8 +562,8 @@ const Home = () => {
                             <img 
                                 src={FOL}
                                 alt=''
-                                width='300'
-                                height='150'
+                                width='200'
+                                height='auto'
                             />
                         </a>
                     </div>
